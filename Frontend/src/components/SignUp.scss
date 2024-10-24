@@ -1,0 +1,17 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    .btn{
+        background-color: #fcfaf8;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        &:hover{
+            background-color:#989593 ;
+        }
+    }
+    .footer{
+        padding: 6px;
+    }
+}

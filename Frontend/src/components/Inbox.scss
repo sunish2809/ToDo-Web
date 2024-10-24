@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.appright{
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    margin-top: 60px;
+    .wrapper{
+        width: 785px;
+    }
+    &__header{
+        padding: 8px;
+        &--items{
+           font-size:25px;
+           font-weight: 600;
+        }
+    }
+    &__body{
+        padding: 8px;
+        //border-bottom: 0.1px solid #666;
+        .body-items{
+            //border-bottom: 0.1px solid #666;
+            margin-bottom: 10px;
+            .title{
+                font-size:15px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+        }
+        &--items{
+            display: flex;
+            gap: 12px;
+            .input{
+                // .radio{
+                //     height: 18px;
+                //     width: 18px;
+                // }
+                height: 16px;
+                width: 16px;
+                margin-top: 2px;
+                border-radius: 50%;
+                border: 1px solid #666;
+            }
+            
+            .content-items{
+                display: flex;
+                flex-grow: 1;
+                .task-content{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    flex-grow: 1;
+                    .task-title{
+                        font-size: 13px;
+                        font-weight: 200;
+                    }
+                    .task-date-content{
+                        display: flex;
+                        gap :4px;
+                        align-items: center;
+                        .task-date-icon{
+                            fill: #666;
+                            height: 20px;
+                            width: 20px;
+
+                        }
+                        .task-date-text{
+                            font-size: 12px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .delete{
+                    display: flex;
+                    margin-left: auto;
+                    .delete-icon{
+                        fill:#bc2807;
+                        &:hover{
+                            background-color: #d7d4d4;
+                            border-radius: 5px;
+
+                        }
+                    }
+                }
+
+            }
+            
+
+        }
+    }
+    &__footer{
+        padding: 8px;
+        &--items{
+            cursor: pointer;
+            display: flex;
+            gap: 12px;
+            .add-task{
+                font-size: 14px;
+                font-weight: 400;
+                color: #666;
+            }
+            .add-task-image {
+                border-radius: 50%;
+                fill: #bc2807; /* Change the icon color */
+                &:hover{
+                    fill: white;
+                    background-color: #bc2807;
+                }
+            }
+        }
+    }
+
+}

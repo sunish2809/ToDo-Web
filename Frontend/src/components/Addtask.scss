@@ -1,0 +1,90 @@
+.addtask{
+    padding: 8px;
+    // width: 100%;
+    width: 785px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    height: max-content;
+    &__header{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        &--item1{
+            padding: 4px;
+            .item1-input{
+                width: 100%;
+                outline: none;
+                border: none;
+                color: #666;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+        &--item2{
+            padding: 4px;
+            .item2-input{
+                width: 100%;
+                border: none;
+                font-size: 13px;
+                font-weight: 400;
+                outline: none;
+                color: #666;
+            }
+        }
+    }
+    &__body{
+        padding: 4px;
+        border: 1px solid #666;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        width: 110px;
+        &--item{
+            display: flex;
+            gap: 4px;
+            .body-input{
+                outline: none;
+                border: none;
+                color: #666;
+                font-size: 12px;
+                font-weight: 500;
+
+            }
+            .body-icon{
+                height: 18px;
+                width: 18px;
+            }
+        }
+    }
+    &__footer{
+        display: flex;
+        padding: 4px;
+        gap: 8px;
+        .footer-cancel{
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            font-weight: 400;
+            color: #666;
+            padding: 4px;
+            margin-left: auto;
+            border-radius: 5px;
+            &:hover{
+                background: #d7d4d4;
+            }
+
+        }
+        .footer-addtask{
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            font-weight: 400;
+            color: #666;
+            padding: 4px;
+            border-radius: 5px;
+            &:hover{
+                background: #d7d4d4;
+            }
+
+        }
+    }
+}
