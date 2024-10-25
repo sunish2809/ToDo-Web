@@ -83,7 +83,8 @@ const SignUp = () => {
         <button className="btn w-100 py-2" type="submit">Sign Up</button>
         <div className='footer'>
           <div>Have an account?</div>
-          <a href="/signin">Sign In</a>
+          {/* <a href="/signin">Sign In</a> */}
+          <button className='footer-btn' type="button" onClick={() => navigate('/sigin')}>Sign In</button>
         </div>
       </form>
     </div>
