@@ -13,5 +13,16 @@
     }
     .footer{
         padding: 6px;
+        .footer-btn{
+            border-radius: 5px;
+            background-color: #fcfaf8;
+            border: none;
+            font-size: 14px;
+            padding: 2px;
+            &:hover{
+                background-color:#989593 ;
+            }
+
+        }
     }
 }
