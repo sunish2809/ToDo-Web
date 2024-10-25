@@ -17,7 +17,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
   rel="stylesheet"
 />;
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://todo-web-pgbt.onrender.com";
 interface Project {
   _id: string;
   user: string;

@@ -3,7 +3,7 @@ import axios /*,{ AxiosError }*/from "axios";
 import close from '../assets/close_24dp_E8EAED_FILL0_wght100_GRAD0_opsz20.svg'
 import { useNavigate } from 'react-router-dom'; 
 import { useState } from 'react';
-const API_URL = "http://localhost:3000";
+const API_URL = "https://todo-web-pgbt.onrender.com";
 
 const Setting = () => {
   const [name,SetName] = useState('');

@@ -14,7 +14,7 @@ interface Task {
   updatedAt: string;
 }
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://todo-web-pgbt.onrender.com";
 
 const Inbox: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([]); // State for tasks

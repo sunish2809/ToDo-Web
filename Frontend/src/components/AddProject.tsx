@@ -4,7 +4,7 @@ import close from "../assets/close_24dp_E8EAED_FILL0_wght100_GRAD0_opsz20.svg";
 import { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://todo-web-pgbt.onrender.com";
 
 const AddProject = () => {
   const navigate = useNavigate();

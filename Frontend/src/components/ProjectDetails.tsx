@@ -24,7 +24,7 @@ interface Task {
     description: string;
     date: string;
   }
-  const API_URL = "http://localhost:3000";
+  const API_URL = "https://todo-web-pgbt.onrender.com";
 const ProjectDetails : React.FC = () => {
 
     const { id } = useParams<{ id: string }>(); // Get project ID from route parameters

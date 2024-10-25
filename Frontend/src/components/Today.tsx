@@ -15,7 +15,7 @@ interface Task {
   updatedAt: string;
 }
 
-const API_URL = "http://localhost:3000"; // Replace with your actual API URL
+const API_URL = "https://todo-web-pgbt.onrender.com"; // Replace with your actual API URL
 
 const Today: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([]); // Store tasks in state

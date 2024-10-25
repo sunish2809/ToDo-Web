@@ -9,7 +9,7 @@ interface SignInData {
   email: string;
   password: string;
 }
-const API_URL = "http://localhost:3000";
+const API_URL = "https://todo-web-pgbt.onrender.com";
 const SignUp = () => {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [signinData, setSignInData] = useState<SignInData>({
